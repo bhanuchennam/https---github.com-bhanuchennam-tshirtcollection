@@ -40,9 +40,14 @@ app.use("/api",orderRoutes);
 app.use("/api",paymentRoutes);
 
 
-// dummy
+// dummy1
 app.get("/tshirt", (req, res) => {
     res.send(" t shirt added to the wishlist cart");
+})
+
+// dummy2
+app.get("/hoodies", (req, res) => {
+  res.send(" t shirt added to the wishlist cart");
 })
 
 //PORT
